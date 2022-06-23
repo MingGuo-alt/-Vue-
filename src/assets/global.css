@@ -1,0 +1,35 @@
+/* 全局样式表 */
+html, body, #app {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    min-width: 1366px;
+    min-height: 768px;
+    /* overflow-y: hidden; */
+    /* 解决dialog出现时右侧缩小5px的问题 页面出现抖动的情况 */
+    /* padding-right: 0 !important; */
+    /* overflow-x:hidden; */
+}
+*{
+    margin: 0;
+}
+
+/* el-card卡片的一些设置 */
+.el-card {
+    /* 设置card的框带上阴影 */
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important;
+}
+
+.el-card__header {
+    padding: 12px 16px;
+}
+
+.el-card__body {
+    padding: 5px;
+}
+
+/* dialog相关设置 */
+.el-dialog__header {
+    background: #1E90FF;
+    padding: 15px 15px 15px;
+}
